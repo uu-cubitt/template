@@ -34,14 +34,12 @@ Then initiate a new git repository:
 ```
 
 Change the following files:
- 
+
 * rename ```cubitt-template.ts``` to ```cubitt-new-module.ts```
-* update the main and typings fields in ```package.json``` 
-and all links with the new module name
+* update the main and typings fields in ```package.json``` and all links with the new module name
 * update ```readme.md``` to include information about the new module
 
-And finally commit the changes, create a new Github repository and push 
-the new framework.
+And finally commit the changes, create a new Github repository and push the new framework.
 
 ```bash
 /$ git add --all
