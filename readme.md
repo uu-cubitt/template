@@ -81,8 +81,6 @@ To generate documentation:
 /$ npm run typedoc
 ```
 
-For windows users these scripts might not work
-
 ## License
 
 [MIT](LICENSE)
