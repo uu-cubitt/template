@@ -39,7 +39,7 @@ Change the following files:
 * update the main and typings fields in ```package.json``` and all links with the new module name
 * update ```readme.md``` to include information about the new module
 
-Next, create a new Github repository and enable the repository on Github.
+Next, create a new Github repository and enable the repository on Travis.
 Then commit and push the changes.
 
 ```bash
@@ -53,6 +53,7 @@ After then push is completed, go to [Codeclimate](https://codeclimate.com/dashbo
 Then navigate to the repository settings - code coverage - javascript
 and copy the ```CODECLIMATE_REPO_TOKEN=8e3...``` to the Travis environment.
 Then rerun the build on Travis so the coverage information is send to Codeclimate.
+(this bare template does not generate coverage information, due to containing no code or tests)
 
 ## For developers
 
