@@ -27,10 +27,10 @@ Clone this template project and then remove the .git folder.
 Then initiate a new git repository:
 
 ```bash
-/$ git clone git@github.com:uu-cubitt/template.git
-/$ cd template
-/$ rm -rf .git
-/$ git init
+git clone git@github.com:uu-cubitt/template.git
+cd template
+rm -rf .git
+git init
 ```
 
 Change the following files:
@@ -43,10 +43,10 @@ Next, create a new Github repository and enable the repository on Travis.
 Then commit and push the changes.
 
 ```bash
-/$ git add --all
-/$ git commit -m "Initial setup"
-/$ git add remote git@github.com:uu-cubitt/<new module>.git
-/$ git push -u origin master
+git add --all
+git commit -m "Initial setup"
+git add remote git@github.com:uu-cubitt/<new module>.git
+git push -u origin master
 ```
 
 After then push is completed, go to [Codeclimate](https://codeclimate.com/dashboard) and add the new repository.
@@ -60,25 +60,25 @@ Then rerun the build on Travis so the coverage information is send to Codeclimat
 To get started:
 
 ```bash
-/$ npm run dev
+npm run dev
 ```
 
 To run the unit tests:
 
 ```bash
-/$ npm run test
+npm run test
 ```
 
 To generate a test coverage report:
 
 ```bash
-/$ npm run test-coverage
+npm run test-coverage
 ```
 
 To generate documentation:
 
 ```bash
-/$ npm run typedoc
+npm run typedoc
 ```
 
 ## License
