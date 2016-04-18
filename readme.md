@@ -36,8 +36,7 @@ git init
 Change the following files:
 
 * rename ```cubitt-template.ts``` to ```cubitt-new-module.ts```
-* update the main and typings fields in ```package.json```
-and all links with the new module name
+* update the main and typings fields in ```package.json``` and all links with the new module name
 * update ```readme.md``` to include information about the new module
 
 Next, create a new Github repository and enable the repository on Travis.
@@ -55,7 +54,6 @@ go to [Codeclimate](https://codeclimate.com/dashboard) and add the new repositor
 Then navigate to the repository settings - code coverage - javascript
 and copy the ```CODECLIMATE_REPO_TOKEN=8e3...``` to the Travis environment.
 Then rerun the build on Travis so the coverage information is send to Codeclimate.
-(this bare template does not generate coverage information, due to containing no code or tests)
 
 ## For developers
 
