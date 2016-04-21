@@ -3,6 +3,7 @@
 A template project to help easily start developing new Cubitt modules.
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/uu-cubitt/template/master/LICENSE)
+[![npm version](https://badge.fury.io/js/cubitt-template.svg)](https://badge.fury.io/js/cubitt-template)
 [![Build Status](https://travis-ci.org/uu-cubitt/template.svg?branch=master)](https://travis-ci.org/uu-cubitt/template)
 [![Test Coverage](https://codeclimate.com/github/uu-cubitt/template/badges/coverage.svg)](https://codeclimate.com/github/uu-cubitt/template/coverage)
 
