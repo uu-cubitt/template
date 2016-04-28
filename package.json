@@ -5,7 +5,7 @@
 	"main": "./dist/cubitt-template.js",
 	"typings": "./dist/cubitt-template.d.ts",
 	"scripts": {
-		"lint": "tslint -c ./src/tslint.json --force -e ./src/{typings,test}/** ./src/**/*.ts",
+		"lint": "./node_modules/.bin/tslint -c ./src/tslint.json --force -e ./src/{typings,test}/** ./src/**/*.ts",
 		"build": "cd ./src/ && ./../node_modules/.bin/typings install && ./../node_modules/.bin/tsc",
 		"test": "cd dist && ./../node_modules/.bin/mocha --require source-map-support/register",
 		"test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --include-all-sources --report lcovonly -- ./dist/test/ -R spec && ./node_modules/.bin/remap-istanbul -i ./coverage/coverage.json -o ./coverage/coverage.json && ./node_modules/.bin/istanbul report lcov",
